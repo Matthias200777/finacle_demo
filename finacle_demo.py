@@ -130,6 +130,7 @@ def dashboard():
             min_value=1000, 
             max_value=100000, 
             step=500,
+            value=None,
             key="loan_amount"
         )
         
@@ -184,4 +185,5 @@ def main():
         login_page()
 
 if __name__ == "__main__":
+
     main()
